@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@layer components {
+  /* Container patterns */
+  .container-responsive {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Navigation link patterns */
+  .nav-link {
+    @apply text-secondary-700 hover:text-primary-500 font-medium transition-colors duration-200;
+  }
+
+  .nav-link-mobile {
+    @apply block py-2 text-secondary-700 hover:text-primary-500 font-medium;
+  }
+
+  /* Footer link patterns */
+  .footer-link {
+    @apply text-secondary-400 hover:text-white transition-colors duration-200;
+  }
+
+  /* Dropdown patterns */
+  .dropdown-menu {
+    @apply absolute bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-10;
+  }
+
+  .dropdown-item {
+    @apply block px-4 py-2 text-secondary-700 hover:bg-primary-100 transition-colors duration-200;
+  }
+
+  /* Card patterns */
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-card hover:shadow-card-hover transition-shadow duration-300;
+  }
+
+  /* Icon with text patterns */
+  .icon-text {
+    @apply flex items-center;
+  }
+
+
+
+  /* Section patterns */
+  .section-padding {
+    @apply py-section;
+  }
+
+  .section-container-padding {
+    @apply py-container-sm;
+  }
+
+  /* Typography patterns */
+  .section-title {
+    @apply text-3xl font-bold text-secondary-800 mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-secondary-600 max-w-2xl mx-auto mb-12;
+  }
+
+  .footer-heading {
+    @apply text-lg font-semibold mb-4;
+  }
+
+  /* Link patterns with primary accent */
+  .link-primary {
+    @apply text-primary-500 font-medium hover:underline transition-all duration-200;
+  }
+
+  /* Grid patterns */
+  .product-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
+  }
+
+  .footer-grid {
+    @apply grid grid-cols-1 md:grid-cols-4 gap-8;
+  }
+}
