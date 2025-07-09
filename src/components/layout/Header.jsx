@@ -51,14 +51,24 @@ const Header = () => {
             if (item.type === 'dropdown') {
               return (
                 <div key={item.id} className="relative">
-                  <button
-                    className="nav-link flex items-center"
+                  <div
+                    className="flex items-center"
                     onMouseEnter={() => setIsProductsDropdownOpen(true)}
                     onMouseLeave={() => setIsProductsDropdownOpen(false)}
                   >
-                    {item.label}
-                    <span className="material-icons text-sm ml-1">expand_more</span>
-                  </button>
+                    <Link
+                      to={item.path}
+                      className="nav-link"
+                    >
+                      {item.label}
+                    </Link>
+                    <button
+                      className="nav-link ml-1 p-1"
+                      onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
+                    >
+                      <span className="material-icons text-sm">expand_more</span>
+                    </button>
+                  </div>
                   {isProductsDropdownOpen && (
                     <div
                       className="dropdown-menu"
@@ -113,15 +123,23 @@ const Header = () => {
               if (item.type === 'dropdown') {
                 return (
                   <div key={item.id}>
-                    <button
-                      className="w-full text-left py-2 text-secondary-700 hover:text-primary-500 font-medium flex items-center justify-between"
-                      onClick={toggleProductsDropdown}
-                    >
-                      {item.label}
-                      <span className="material-icons text-sm">
-                        {isProductsDropdownOpen ? 'expand_less' : 'expand_more'}
-                      </span>
-                    </button>
+                    <div className="flex items-center justify-between">
+                      <Link
+                        to={item.path}
+                        className="flex-1 py-2 text-secondary-700 hover:text-primary-500 font-medium"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                      <button
+                        className="py-2 px-2 text-secondary-700 hover:text-primary-500 font-medium"
+                        onClick={toggleProductsDropdown}
+                      >
+                        <span className="material-icons text-sm">
+                          {isProductsDropdownOpen ? 'expand_less' : 'expand_more'}
+                        </span>
+                      </button>
+                    </div>
                     {isProductsDropdownOpen && (
                       <div className="pl-4 space-y-1">
                         {item.children.map((child) => (
@@ -129,6 +147,7 @@ const Header = () => {
                             key={child.id}
                             to={child.path}
                             className="block py-1 text-secondary-600 hover:text-primary-500"
+                            onClick={() => setIsMenuOpen(false)}
                           >
                             {child.label}
                           </Link>
@@ -144,6 +163,7 @@ const Header = () => {
                   key={item.id}
                   to={item.path}
                   className="nav-link-mobile"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
