@@ -1,24 +1,24 @@
-// Company information for Gayatri Chemicals
+// Company information for Gayatri Trading
 export const companyInfo = {
-  name: "Gayatri Chemicals",
+  name: "Gayatri Trading",
   tagline: "Chemical Manufacturer and Distributor",
-  description: "Gayatri Chemicals specializes in the distribution of both liquid and solid chemicals to Industries.",
+  description: "Gayatri Trading specializes in the distribution of both liquid and solid chemicals to Industries.",
   established: "2015",
   certification: "ISO 9001:2015 Certified Company",
   
   contact: {
     phones: ["+91 95741 55566", "+91 98241 15192"],
-    email: "contact@gayatrichemicals.com",
-    address: "123 Chemical Lane, Industrial Area, Gujarat, India"
+    email: "export@gayatritrading.com",
+    address: "Plot No. 4906/B, GIDC Estate, Ankleshwar, Gujarat, India"
   },
   
   logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBpVa__ACt5UIDl45CK_TSYQtnHXpdyDLonld32AgeoZJrLOsTgWyC0Ei4Oxqoq_48p9DNxthYOIUZHtOSyAetDkhmaPnlXBekiDv__pI46MYQ1FuIvr20lDKVKcKfffGtil5BCkS2iiBJ0xuEhGdkXhw8xFXjVqBkMFvOCFKLNTlP65JNfEJrRQh751wFOw6D-WDafGZzv78eEbjnzp3EzbdKmicwFvOp2PmRNeAyKsb_udgHgk5itAKHb9d8j18OCzHlPoaMk8URV",
   
   hero: {
     backgroundImage: "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    welcomeText: "WELCOME TO GAYATRI CHEMICALS",
+    welcomeText: "WELCOME TO Gayatri Trading",
     title: "Chemical Manufacturer and Distributor",
-    subtitle: "Gayatri Chemicals specializes in the distribution of both liquid and solid chemicals to Industries."
+    subtitle: "Gayatri Trading specializes in the distribution of both liquid and solid chemicals to Industries."
   }
 };
 
