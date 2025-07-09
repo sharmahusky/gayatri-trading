@@ -28,7 +28,7 @@ body {
 
   /* Dropdown patterns */
   .dropdown-menu {
-    @apply absolute bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-10;
+    @apply absolute bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-50;
   }
 
   .dropdown-item {
