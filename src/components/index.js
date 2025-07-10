@@ -8,3 +8,4 @@ export { default as Footer } from './layout/Footer';
 // Common/reusable UI components
 export { default as Button } from './common/Button';
 export { default as ProductCard } from './common/ProductCard';
+export { default as ScrollToTop } from './common/ScrollToTop';

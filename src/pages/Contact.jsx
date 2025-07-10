@@ -29,7 +29,6 @@ const Contact = () => {
       // Prepare form data for Netlify submission
       const form = e.target;
       const formData = new FormData(form);
-      console.log("form", new URLSearchParams(formData).toString())
 
       // Submit to Netlify Forms
       const response = await fetch("/", {
@@ -262,25 +261,6 @@ const Contact = () => {
                 </a>
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="section-padding bg-primary-500 text-white">
-        <div className="container-responsive text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto text-primary-100">
-            Our experienced team is standing by to provide you with the chemical solutions you need. 
-            Contact us today for a personalized consultation.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="secondary" size="large">
-              Request a Quote
-            </Button>
-            <Button variant="outline" size="large" className="border-white text-white hover:bg-white hover:text-primary-500">
-              View Our Products
-            </Button>
           </div>
         </div>
       </section>

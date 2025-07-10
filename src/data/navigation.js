@@ -49,25 +49,25 @@ export const navigationItems = [
   {
     id: "quality-policy",
     label: "Quality Policy",
-    path: "/quality-policy",
+    path: "/#",
     type: "link"
   },
   {
     id: "she-policy",
     label: "SHE Policy",
-    path: "/she-policy",
+    path: "/#",
     type: "link"
   },
   {
     id: "team",
     label: "Team",
-    path: "/team",
+    path: "/#",
     type: "link"
   },
   {
     id: "clients",
     label: "Our Clients",
-    path: "/clients",
+    path: "/#",
     type: "link"
   },
   {
@@ -83,7 +83,7 @@ export const footerNavigation = {
   quickLinks: [
     { label: "About Us", path: "/about" },
     { label: "Our Products", path: "/products" },
-    { label: "Quality Policy", path: "/quality-policy" },
+    { label: "Quality Policy", path: "/#" },
     { label: "Contact Us", path: "/contact" }
   ],
   products: [
@@ -93,9 +93,9 @@ export const footerNavigation = {
     { label: "Solvents", path: "/products/solvents" }
   ],
   policies: [
-    { label: "Quality Policy", path: "/quality-policy" },
-    { label: "SHE Policy", path: "/she-policy" },
-    { label: "Privacy Policy", path: "/privacy-policy" },
-    { label: "Terms of Service", path: "/terms" }
+    { label: "Quality Policy", path: "/#" },
+    { label: "SHE Policy", path: "/#" },
+    { label: "Privacy Policy", path: "/#" },
+    { label: "Terms of Service", path: "/#" }
   ]
 };
