@@ -1,0 +1,76 @@
+<svg width="180" height="48" viewBox="0 0 180 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chemical flask icon with modern design -->
+  <g transform="translate(4, 6)">
+    <!-- Background circle -->
+    <circle cx="18" cy="18" r="16" fill="#f97316" opacity="0.08"/>
+
+    <!-- Flask body - erlenmeyer flask shape -->
+    <path d="M14 6 L14 14 L8 28 L28 28 L22 14 L22 6 Z"
+          fill="#f97316"
+          stroke="#ea580c"
+          stroke-width="1.5"
+          stroke-linejoin="round"/>
+
+    <!-- Flask neck -->
+    <rect x="16" y="4" width="4" height="4"
+          fill="#f97316"
+          stroke="#ea580c"
+          stroke-width="1.5"/>
+
+    <!-- Chemical liquid level -->
+    <path d="M10 24 L26 24 L24 26 L12 26 Z"
+          fill="#ea580c"
+          opacity="0.7"/>
+
+    <!-- Chemical bubbles -->
+    <circle cx="15" cy="20" r="1.5" fill="#fff" opacity="0.9"/>
+    <circle cx="21" cy="18" r="1" fill="#fff" opacity="0.7"/>
+    <circle cx="18" cy="22" r="0.8" fill="#fff" opacity="0.8"/>
+
+    <!-- Flask rim -->
+    <ellipse cx="18" cy="4" rx="2.5" ry="1"
+             fill="#ea580c"/>
+  </g>
+
+  <!-- Company name with better spacing -->
+  <g transform="translate(44, 0)">
+    <!-- GAYATRI -->
+    <text x="0" y="22"
+          font-family="Roboto, sans-serif"
+          font-size="18"
+          font-weight="700"
+          fill="#1f2937"
+          letter-spacing="0.5px">
+      GAYATRI
+    </text>
+
+    <!-- TRADING -->
+    <text x="0" y="38"
+          font-family="Roboto, sans-serif"
+          font-size="11"
+          font-weight="500"
+          fill="#6b7280"
+          letter-spacing="1px">
+      TRADING
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="46"
+          font-family="Roboto, sans-serif"
+          font-size="7"
+          font-weight="400"
+          fill="#9ca3af"
+          letter-spacing="0.3px">
+      Chemical Distribution Excellence
+    </text>
+  </g>
+
+  <!-- Molecular structure decoration -->
+  <g transform="translate(150, 8)" opacity="0.3">
+    <circle cx="0" cy="0" r="2" fill="#f97316"/>
+    <circle cx="8" cy="4" r="1.5" fill="#f97316"/>
+    <circle cx="4" cy="12" r="1" fill="#f97316"/>
+    <line x1="0" y1="0" x2="8" y2="4" stroke="#f97316" stroke-width="1"/>
+    <line x1="8" y1="4" x2="4" y2="12" stroke="#f97316" stroke-width="1"/>
+  </g>
+</svg>

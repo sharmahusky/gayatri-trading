@@ -12,7 +12,7 @@ export const companyInfo = {
     address: "Plot No. 4906/B, GIDC Estate, Ankleshwar, Gujarat, India"
   },
   
-  logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBpVa__ACt5UIDl45CK_TSYQtnHXpdyDLonld32AgeoZJrLOsTgWyC0Ei4Oxqoq_48p9DNxthYOIUZHtOSyAetDkhmaPnlXBekiDv__pI46MYQ1FuIvr20lDKVKcKfffGtil5BCkS2iiBJ0xuEhGdkXhw8xFXjVqBkMFvOCFKLNTlP65JNfEJrRQh751wFOw6D-WDafGZzv78eEbjnzp3EzbdKmicwFvOp2PmRNeAyKsb_udgHgk5itAKHb9d8j18OCzHlPoaMk8URV",
+  logo: "/src/assets/logo.svg",
   
   hero: {
     backgroundImage: "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
