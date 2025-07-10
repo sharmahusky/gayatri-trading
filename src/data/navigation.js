@@ -43,7 +43,7 @@ export const navigationItems = [
   {
     id: "key-products",
     label: "Key Products",
-    path: "/key-products",
+    path: "/#",
     type: "link"
   },
   {

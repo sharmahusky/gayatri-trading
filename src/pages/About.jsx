@@ -162,12 +162,13 @@ const About = () => {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+      {/* Call to Action Section - Temporarily Hidden */}
+      {/*
       <section className="section-padding bg-primary-500 text-white">
         <div className="container-responsive text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Partner with Us?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-primary-100">
-            Join {aboutUs.clientsServed} who trust us for their chemical distribution needs. 
+            Join {aboutUs.clientsServed} who trust us for their chemical distribution needs.
             Let's discuss how we can support your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -184,6 +185,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      */}
     </Layout>
   );
 };
