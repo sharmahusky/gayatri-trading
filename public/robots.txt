@@ -1,0 +1,6 @@
+# Robots.txt for Gayatri Trading - Chemical Distribution Company
+# Website: https://www.gayatritrading.com/
+# Location: Ankleshwar, Gujarat, India
+
+User-agent: *
+Allow: /
