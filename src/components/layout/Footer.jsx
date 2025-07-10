@@ -93,6 +93,19 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 border-t border-secondary-700 pt-8 text-center text-secondary-400 text-sm">
           <p>© {new Date().getFullYear()} {companyInfo.name}. All Rights Reserved.</p>
+          <p className="mt-3">
+            Developed with{''}
+            <span className="text-red-500 mx-1" aria-label="love">❤️</span>
+            {''}by{' '}
+            <a
+              href="https://sumityadav.co.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link hover:text-primary-500 transition-colors duration-200"
+            >
+              Sumit
+            </a>
+          </p>
         </div>
       </div>
     </footer>
