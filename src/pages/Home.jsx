@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Layout, ProductCard, Button } from '../components';
 import { products, companyInfo } from '../data';
 
@@ -24,9 +25,11 @@ const Home = () => {
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
             {companyInfo.hero.subtitle}
           </p>
-          <Button variant="secondary" size="large">
-            Read More
-          </Button>
+          <Link to={"/about"}>
+            <Button variant="secondary" size="large">
+              Read More
+            </Button>
+          </Link>
         </div>
       </section>
 
