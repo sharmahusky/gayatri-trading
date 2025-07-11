@@ -96,7 +96,7 @@ const Contact = () => {
                   {/* Name Field */}
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-secondary-700 mb-2">
-                      Full Name *
+                      Full Name<span className="text-red-500 ml-1">*</span>
                     </label>
                     <input
                       type="text"
@@ -113,7 +113,7 @@ const Contact = () => {
                   {/* Phone Field */}
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-secondary-700 mb-2">
-                      Phone Number *
+                      Phone Number<span className="text-red-500 ml-1">*</span>
                     </label>
                     <input
                       type="tel"
@@ -131,7 +131,7 @@ const Contact = () => {
                 {/* Email Field */}
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-secondary-700 mb-2">
-                    Email Address *
+                    Email Address<span className="text-red-500 ml-1">*</span>
                   </label>
                   <input
                     type="email"
@@ -148,7 +148,7 @@ const Contact = () => {
                 {/* Message Field */}
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-secondary-700 mb-2">
-                    Message *
+                    Message<span className="text-red-500 ml-1">*</span>
                   </label>
                   <textarea
                     id="message"
