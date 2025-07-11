@@ -58,36 +58,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* What Sets Us Apart Section */}
-      <section className="section-padding bg-white">
-        <div className="container-responsive">
-          <div className="text-center mb-12">
-            <h2 className="section-title">What Sets Us Apart</h2>
-            <p className="section-subtitle">
-              Three key differentiators that make us your ideal chemical distribution partner
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {aboutUs.differentiators.map((diff) => (
-              <div key={diff.id} className="card text-center">
-                <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="material-icons text-primary-500 text-2xl">{diff.icon}</span>
-                </div>
-                <h3 className="text-xl font-semibold text-secondary-800 mb-4">{diff.title}</h3>
-                <ul className="text-secondary-600 text-sm space-y-2 text-left">
-                  {diff.highlights.map((highlight, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-primary-500 mr-2 mt-1">•</span>
-                      <span>{highlight}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Our Commitment to You Section */}
       <section className="section-padding bg-secondary-50">
         <div className="container-responsive">

@@ -19,19 +19,6 @@ export const companyInfo = {
     welcomeText: "WELCOME TO Gayatri Trading",
     title: "Chemical Manufacturer and Distributor",
     subtitle: "Gayatri Trading specializes in the distribution of both liquid and solid chemicals to Industries."
-  }
-};
-
-// About us content
-export const aboutUs = {
-  // Enhanced content
-  tagline: "Your Trusted Global Chemical Partner",
-  description: "We don't just supply chemicals – we power industries. As a dynamic sister concern of Geeta Chemicals, we bring over two decades of manufacturing excellence to the global marketplace.",
-
-  legacy: {
-    location: "Born in the industrial heartland of Ankleshwar, Gujarat",
-    expertise: "we combine deep technical expertise with customer-first service",
-    certification: "ISO 9001:2015 certified operations ensure every drum, every shipment, and every transaction meets the highest standards of quality and reliability"
   },
 
   differentiators: [
@@ -66,6 +53,19 @@ export const aboutUs = {
       ]
     }
   ],
+};
+
+// About us content
+export const aboutUs = {
+  // Enhanced content
+  tagline: "Your Trusted Global Chemical Partner",
+  description: "We don't just supply chemicals – we power industries. As a dynamic sister concern of Geeta Chemicals, we bring over two decades of manufacturing excellence to the global marketplace.",
+
+  legacy: {
+    location: "Born in the industrial heartland of Ankleshwar, Gujarat",
+    expertise: "we combine deep technical expertise with customer-first service",
+    certification: "ISO 9001:2015 certified operations ensure every drum, every shipment, and every transaction meets the highest standards of quality and reliability"
+  },
 
   commitments: [
     {
