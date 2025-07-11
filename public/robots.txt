@@ -4,3 +4,6 @@
 
 User-agent: *
 Allow: /
+
+# XML Sitemap location
+Sitemap: https://www.gayatritrading.com/sitemap.xml
