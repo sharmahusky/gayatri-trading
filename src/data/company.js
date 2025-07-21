@@ -7,7 +7,7 @@ export const companyInfo = {
   certification: "ISO 9001:2015 Certified Company",
   
   contact: {
-    phones: ["+91 95741 55566", "+91 98241 15192"],
+    phones: ["+91 74868 89759", "+91 98241 15192"],
     email: "export@gayatritrading.com",
     address: "Plot No. 4906/B, GIDC Estate, Ankleshwar, Gujarat, India"
   },

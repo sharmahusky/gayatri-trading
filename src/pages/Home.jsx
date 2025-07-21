@@ -16,7 +16,7 @@ const Home = () => {
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="container-responsive py-24 md:py-36 text-center relative z-10">
-          <div className="inline-block bg-white text-primary-500 px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <div className="inline-block bg-primary-500 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
             {companyInfo.hero.welcomeText}
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
@@ -26,7 +26,7 @@ const Home = () => {
             {companyInfo.hero.subtitle}
           </p>
           <Link to={"/about"}>
-            <Button variant="secondary" size="large">
+            <Button variant="primary" size="large">
               Read More
             </Button>
           </Link>
